@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - FarmSourcedNaturals</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="navbar">
+  <div class="logo-container">
+    <img src="images/logo.jpg" class="logo" alt="Logo">
+    <h1 class="site-title">FarmSourcedNaturals</h1>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a class="active" href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="cart.html">Cart 🛒</a></li>
+
+  </ul>
+</header>
+
+<!-- CART MAIN SECTION -->
+<section class="cart-container">
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+
+    <div class="cart-summary">
+        <h2>Total: ₹<span id="total-price">0</span></h2>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+</section>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
